@@ -3,6 +3,7 @@ import { ref } from 'vue';
 
 let name = ref('Guest 3')
 const emoji = ref('👋')
+
 </script>
 
 <template>
@@ -11,6 +12,7 @@ const emoji = ref('👋')
   </header>
     <br>
   <h1>Let's Vue! Hello , {{ name }}</h1>
+
 </template>
 
 <style scoped>
